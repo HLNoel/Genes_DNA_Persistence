@@ -1,0 +1,89 @@
+---
+title: "mtDNA_Environment"
+author: "Hannah Noel"
+date: "2024-05-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(kableExtra)
+library(ggplot2)
+library(dplyr)
+library(FactoMineR)
+library(factoextra)
+
+options(knitr.kable.NA = "")
+```
+
+```{r mtDNAdata, include=FALSE}
+
+dfA <- read.csv('mtDNA_Environmental_Data.csv')
+dfA$donor_id <- factor(dfA$donor_id)
+
+```
+
+```{r mtPrin, include=TRUE}
+
+#performing PCA of environmental factors 
+mt.Prin <- PCA(
+  dfA[,2:7], 
+  scale.unit = TRUE, 
+  quali.sup = c(1), 
+  graph = FALSE
+  )
+
+#table of Eigen values and percentage variance 
+kbl(mt.Prin$eig, 
+    digits = 3) |>
+  kable_classic(full = FALSE)
+
+#table of correlation coefficients 
+kbl(mt.Prin$var$cor, 
+    digits = 3) |>
+  kable_classic(full = FALSE)
+
+#visulatzation of PCA 
+mito1 <- fviz_pca_biplot(mt.Prin,
+                axes = c(1,2),
+                geom.ind = "point", 
+                col.ind = dfA$donor_id, 
+                palette = c("blue","black","orange"),
+                legend.title = "Donor",
+                label = 'var', 
+                repel = TRUE) +
+  theme_minimal(base_size = 10) +
+  labs (x="Dimension 1 (40.334%)", y="Dimension 2 (31.232%)") 
+
+mito1 
+
+```
+
+```{r mtRegression, include=TRUE}
+
+#combining dimensions of PCA to the dataset 
+dfB <- cbind(dfA, mt.Prin$ind$coord)
+
+#looking for statistically significant relationships between dimensions and quantity of mtDNA in soil
+dim1MT <- lm(quantity_mtdna ~ Dim.1, dfB)
+
+anova(dim1MT)
+
+dim2MT <- lm(quantity_mtdna ~ Dim.2, dfB)
+
+anova(dim2MT)
+
+dim3MT <- lm(quantity_mtdna ~ Dim.3, dfB) 
+
+anova(dim3MT)
+
+#visualization of dimension 1 and quantity of mtDNA 
+ggplot(dfB, aes(x=Dim.1, y=quantity_mtdna)) +
+  geom_point() +
+  scale_y_log10() + 
+  geom_smooth(method="lm") +
+  labs (x="Dimension 1", y="Quantity of mtDNA (copy number/ul)") 
+
+```
+
