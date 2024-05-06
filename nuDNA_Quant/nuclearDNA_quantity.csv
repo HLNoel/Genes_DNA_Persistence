@@ -1,0 +1,211 @@
+donor_id,week,location ,quantity_nudna
+Donor1,1,Cranium ,0.0035
+Donor1,1,Cranium ,0.0033
+Donor1,1,Torso Right ,0.0005
+Donor1 ,1,Torso Right ,0
+Donor1,1,Torso Right ,0.0001
+Donor1 ,1,Torso Left ,0.0004
+Donor1,1,Torso Left ,0.0004
+Donor1,1,Torso Left ,0.0003
+Donor1,1,Lower Ext,0.0031
+Donor1,1,Lower Ext ,0.0036
+Donor1,1,Lower Ext ,0.0036
+Donor2 ,1,Cranium ,0.0114
+Donor2,1,Cranium ,0.0092
+Donor2,1,Cranium ,0.0121
+Donor2,1,Torso Right ,0.0003
+Donor2,1,Torso Right ,0
+Donor2,1,Torso Right ,0.0005
+Donor2,1,Torso Left ,0.0008
+Donor2,1,Torso Left ,0.001
+Donor2,1,Lower Ext,0.0146
+Donor2,1,Lower Ext ,0.0128
+Donor2,1,Lower Ext ,0.0151
+Donor3,1,Cranium ,0.0029
+Donor3,1,Cranium ,0.0021
+Donor3,1,Cranium ,0.0027
+Donor3,1,Torso Right ,0
+Donor3,1,Torso Right ,0
+Donor3,1,Torso Right ,0
+Donor3,1,Torso Left ,0.0056
+Donor3,1,Torso Left ,0.0056
+Donor3,1,Torso Left ,0.0061
+Donor3,1,Lower Ext,0
+Donor3,1,Lower Ext ,0
+Donor3,1,Lower Ext ,0.0108
+Donor1,2,Cranium ,0.0003
+Donor1,2,Cranium ,0.0003
+Donor1,2,Torso Right ,0
+Donor1 ,2,Torso Right ,0
+Donor1,2,Torso Right ,0
+Donor1 ,2,Torso Left ,0.0002
+Donor1,2,Torso Left ,0
+Donor1,2,Torso Left ,0.0002
+Donor1,2,Lower Ext,0.0002
+Donor1,2,Lower Ext ,0
+Donor1,2,Lower Ext ,0
+Donor2,2,Cranium ,0.0008
+Donor2,2,Cranium ,0.0012
+Donor2,2,Cranium ,0.0023
+Donor2,2,Torso Right ,0.001
+Donor2,2,Torso Right ,0.001
+Donor2,2,Torso Left ,0
+Donor2,2,Torso Left ,0.0007
+Donor2,2,Torso Left ,0
+Donor2,2,Lower Ext,0.0004
+Donor2,2,Lower Ext ,0.0008
+Donor2,2,Lower Ext ,0
+Donor3,2,Cranium ,0
+Donor3,2,Cranium ,0
+Donor3,2,Cranium ,0
+Donor3,2,Torso Right ,0
+Donor3,2,Torso Right ,0
+Donor3,2,Torso Right ,0
+Donor3,2,Torso Left ,0.0013
+Donor3,2,Torso Left ,0.0013
+Donor3,2,Lower Ext,0.002
+Donor3,2,Lower Ext ,0.002
+Donor3,2,Lower Ext ,0.0002
+Donor1,3,Cranium ,0
+Donor1,3,Cranium ,0
+Donor1,3,Cranium ,0
+Donor1,3,Torso Right ,0
+Donor1 ,3,Torso Right ,0
+Donor1,3,Torso Right ,0
+Donor1 ,3,Torso Left ,0.0006
+Donor1,3,Torso Left ,0.0006
+Donor1,3,Torso Left ,0.0004
+Donor1,3,Lower Ext ,0.0019
+Donor1,3,Lower Ext ,0.0018
+Donor2,3,Cranium ,0.0011
+Donor2,3,Cranium ,0.0006
+Donor2,3,Cranium ,0
+Donor2,3,Torso Right ,0.0006
+Donor2,3,Torso Right ,0.0006
+Donor2,3,Torso Right ,0
+Donor2,3,Torso Left ,0
+Donor2,3,Torso Left ,0.0005
+Donor2,3,Torso Left ,0
+Donor2,3,Lower Ext,0.0005
+Donor2,3,Lower Ext ,0.0006
+Donor2,3,Lower Ext ,0.0005
+Donor3,3,Cranium ,0.0005
+Donor3,3,Cranium ,0.0004
+Donor3,3,Cranium ,0
+Donor3,3,Torso Right ,0
+Donor3,3,Torso Right ,0
+Donor3,3,Torso Right ,0
+Donor3,3,Torso Left ,0
+Donor3,3,Torso Left ,0
+Donor3,3,Torso Left ,0
+Donor3,3,Lower Ext,0
+Donor3,3,Lower Ext ,0
+Donor3,3,Lower Ext ,0
+Donor1,4,Cranium ,0
+Donor1,4,Cranium ,0
+Donor1,4,Cranium ,0
+Donor1,4,Torso Right ,0
+Donor1 ,4,Torso Right ,0
+Donor1,4,Torso Right ,0
+Donor1 ,4,Torso Left ,0
+Donor1,4,Torso Left ,0
+Donor1,4,Torso Left ,0
+Donor1,4,Lower Ext,0
+Donor1,4,Lower Ext ,0
+Donor1,4,Lower Ext ,0
+Donor2,4,Cranium ,0
+Donor2,4,Cranium ,0
+Donor2,4,Cranium ,0
+Donor2,4,Torso Right ,0.0004
+Donor2,4,Torso Right ,0
+Donor2,4,Torso Right ,0
+Donor2,4,Torso Left ,0
+Donor2,4,Torso Left ,0
+Donor2,4,Torso Left ,0
+Donor2,4,Lower Ext,0
+Donor2,4,Lower Ext ,0
+Donor2,4,Lower Ext ,0
+Donor3,4,Cranium ,0
+Donor3,4,Cranium ,0
+Donor3,4,Cranium ,0
+Donor3,4,Torso Right ,0
+Donor3,4,Torso Right ,0
+Donor3,4,Torso Right ,0
+Donor3,4,Torso Left ,0
+Donor3,4,Torso Left ,0
+Donor3,4,Torso Left ,0
+Donor3,4,Lower Ext,0
+Donor3,4,Lower Ext ,0
+Donor3,4,Lower Ext ,0
+Donor1,5,Cranium ,0
+Donor1,5,Cranium ,0
+Donor1,5,Cranium ,0
+Donor1,5,Torso Right ,0.0006
+Donor1 ,5,Torso Right ,0
+Donor1,5,Torso Right ,0
+Donor1 ,5,Torso Left ,0
+Donor1,5,Torso Left ,0
+Donor1,5,Torso Left ,0
+Donor1,5,Lower Ext,0
+Donor1,5,Lower Ext ,0
+Donor1,5,Lower Ext ,0
+Donor2,5,Cranium ,0
+Donor2,5,Cranium ,0.0007
+Donor2,5,Cranium ,0
+Donor2,5,Torso Right ,0.0004
+Donor2,5,Torso Right ,0
+Donor2,5,Torso Right ,0
+Donor2,5,Torso Left ,0
+Donor2,5,Torso Left ,0
+Donor2,5,Torso Left ,0
+Donor2,5,Lower Ext,0
+Donor2,5,Lower Ext ,0
+Donor2,5,Lower Ext ,0
+Donor3,5,Cranium ,0
+Donor3,5,Cranium ,0
+Donor3,5,Cranium ,0
+Donor3,5,Torso Right ,0
+Donor3,5,Torso Right ,0
+Donor3,5,Torso Right ,0
+Donor3,5,Torso Left ,0
+Donor3,5,Torso Left ,0
+Donor3,5,Torso Left ,0.0008
+Donor3,5,Lower Ext,0
+Donor3,5,Lower Ext ,0
+Donor3,5,Lower Ext ,0
+Donor1,6,Cranium ,0.0006
+Donor1,6,Cranium ,0
+Donor1,6,Cranium ,0
+Donor1,6,Torso Right ,0
+Donor1 ,6,Torso Right ,0
+Donor1,6,Torso Right ,0
+Donor1 ,6,Torso Left ,0
+Donor1,6,Torso Left ,0
+Donor1,6,Torso Left ,0
+Donor1,6,Lower Ext,0.0004
+Donor1,6,Lower Ext ,0.0004
+Donor1,6,Lower Ext ,0
+Donor2,6,Cranium ,0
+Donor2,6,Cranium ,0.0004
+Donor2,6,Cranium ,0.0004
+Donor2,6,Torso Right ,0
+Donor2,6,Torso Right ,0.0003
+Donor2,6,Torso Right ,0
+Donor2,6,Torso Left ,0
+Donor2,6,Torso Left ,0
+Donor2,6,Torso Left ,0
+Donor2,6,Lower Ext,0
+Donor2,6,Lower Ext ,0.0003
+Donor2,6,Lower Ext ,0
+Donor3,6,Cranium ,0.0002
+Donor3,6,Cranium ,0
+Donor3,6,Cranium ,0
+Donor3,6,Torso Right ,0
+Donor3,6,Torso Right ,0.0003
+Donor3,6,Torso Right ,0
+Donor3,6,Torso Left ,0
+Donor3,6,Torso Left ,0
+Donor3,6,Torso Left ,0
+Donor3,6,Lower Ext,0.0003
+Donor3,6,Lower Ext ,0
+Donor3,6,Lower Ext ,0
