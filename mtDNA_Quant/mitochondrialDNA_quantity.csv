@@ -1,0 +1,346 @@
+donor_id,week,location ,quantity_mtdna
+Donor1,1,Cranium ,9911.3594
+Donor1,1,Cranium ,9155.8184
+Donor1,1,Torso Right ,1227.7994
+Donor1 ,1,Torso Right ,1350.1639
+Donor1,1,Torso Right ,1175.3765
+Donor1,1,Torso Left ,924.975
+Donor1,1,Torso Left ,824.4401
+Donor1,1,Lower Ext,657.8574
+Donor1,1,Lower Ext ,625.7899
+Donor2 ,1,Cranium ,7154.001
+Donor2,1,Cranium ,8744.2705
+Donor2,1,Torso Right ,14916.753
+Donor2,1,Torso Right ,12860.047
+Donor2,1,Torso Right ,11603.461
+Donor2,1,Torso Left ,9122.6758
+Donor2,1,Torso Left ,9634.3545
+Donor2,1,Lower Ext,20895.183
+Donor2,1,Lower Ext ,23089.699
+Donor3,1,Cranium ,3559.2483
+Donor3,1,Cranium ,3744.761
+Donor3,1,Torso Right ,776.8633
+Donor3,1,Torso Right ,995.8109
+Donor3,1,Torso Left ,19389.066
+Donor3,1,Torso Left ,18044.849
+Donor3,1,Lower Ext ,31786.851
+Donor3,1,Lower Ext ,40778.308
+Donor1,2,Cranium ,508.1081
+Donor1,2,Cranium ,712.5801
+Donor1,2,Cranium ,606.8917
+Donor1,2,Torso Right ,468.9606
+Donor1 ,2,Torso Right ,486.5925
+Donor1,2,Torso Right ,516.6418
+Donor1 ,2,Torso Left ,3283.9985
+Donor1,2,Torso Left ,2826.667
+Donor1,2,Torso Left ,3071.7598
+Donor1,2,Lower Ext,4659.0977
+Donor1,2,Lower Ext ,4584.2124
+Donor2,2,Cranium ,7185.6895
+Donor2,2,Cranium ,6554.1475
+Donor2,2,Cranium ,7353.6826
+Donor2,2,Torso Right ,24014.669
+Donor2,2,Torso Right ,22152.843
+Donor2,2,Torso Right ,23201.402
+Donor2,2,Torso Left ,26573.658
+Donor2,2,Torso Left ,26468.929
+Donor2,2,Torso Left ,28531.4
+Donor2,2,Lower Ext,28139.212
+Donor2,2,Lower Ext ,30277.767
+Donor2,2,Lower Ext ,37191.625
+Donor3,2,Cranium ,193.0346
+Donor3,2,Cranium ,227.1755
+Donor3,2,Cranium ,206.3525
+Donor3,2,Torso Right ,261.9082
+Donor3,2,Torso Right ,248.4059
+Donor3,2,Torso Right ,290.4552
+Donor3,2,Torso Left ,2730.9727
+Donor3,2,Torso Left ,2573.8896
+Donor3,2,Torso Left ,2607.2786
+Donor3,2,Lower Ext,16847.064
+Donor3,2,Lower Ext ,16292.187
+Donor3,2,Lower Ext ,15815.502
+Donor1,3,Cranium ,645.0316
+Donor1,3,Cranium ,539.9144
+Donor1,3,Cranium ,601.884
+Donor1,3,Torso Right ,1176.8929
+Donor1 ,3,Torso Right ,1276.9144
+Donor1,3,Torso Right ,1303.9302
+Donor1 ,3,Torso Left ,16236.473
+Donor1,3,Torso Left ,16087.349
+Donor1,3,Torso Left ,15104.628
+Donor1,3,Lower Ext ,13011.259
+Donor1,3,Lower Ext ,11797.735
+Donor1,3,Lower Ext ,12083.88
+Donor2,3,Cranium ,170657.06
+Donor2,3,Cranium ,157981.68
+Donor2,3,Cranium ,199850.53
+Donor2,3,Torso Right ,115332.14
+Donor2,3,Torso Right ,125792.02
+Donor2,3,Torso Right ,130710.9
+Donor2,3,Torso Left ,17081.281
+Donor2,3,Torso Left ,16406.181
+Donor2,3,Torso Left ,17102.736
+Donor2,3,Lower Ext,297241.15
+Donor2,3,Lower Ext ,290614.34
+Donor2,3,Lower Ext ,275426.37
+Donor3,3,Cranium ,424.8817
+Donor3,3,Cranium ,443.8195
+Donor3,3,Cranium ,444.1913
+Donor3,3,Torso Right ,547.6562
+Donor3,3,Torso Right ,495.4763
+Donor3,3,Torso Right ,508.8495
+Donor3,3,Torso Left ,514.4078
+Donor3,3,Torso Left ,510.581
+Donor3,3,Torso Left ,603.6008
+Donor3,3,Lower Ext,1714.6279
+Donor3,3,Lower Ext ,1714.7126
+Donor3,3,Lower Ext ,1722.8878
+Donor1,4,Cranium ,8992.666
+Donor1,4,Cranium ,8378.3721
+Donor1,4,Cranium ,8946.1318
+Donor1,4,Torso Right ,684.1097
+Donor1 ,4,Torso Right ,817.1866
+Donor1,4,Torso Right ,893.348
+Donor1 ,4,Torso Left ,959.4527
+Donor1,4,Torso Left ,835.7444
+Donor1,4,Torso Left ,868.9219
+Donor1,4,Lower Ext,655.9102
+Donor1,4,Lower Ext ,664.1805
+Donor1,4,Lower Ext ,686.8917
+Donor2,4,Cranium ,790.1992
+Donor2,4,Cranium ,926.5969
+Donor2,4,Cranium ,783.7443
+Donor2,4,Torso Right ,49294.5
+Donor2,4,Torso Right ,48917.449
+Donor2,4,Torso Left ,9134.4395
+Donor2,4,Torso Left ,9026.791
+Donor2,4,Torso Left ,8377.3066
+Donor2,4,Lower Ext,3839.4146
+Donor2,4,Lower Ext ,3561.3979
+Donor2,4,Lower Ext ,3644.166
+Donor3,4,Cranium ,722.9645
+Donor3,4,Cranium ,798.7449
+Donor3,4,Cranium ,654.7134
+Donor3,4,Torso Right ,255.0186
+Donor3,4,Torso Right ,225.7803
+Donor3,4,Torso Right ,241.8583
+Donor3,4,Torso Left ,353.3207
+Donor3,4,Torso Left ,334.0171
+Donor3,4,Torso Left ,304.0773
+Donor3,4,Lower Ext,1470.9886
+Donor3,4,Lower Ext ,1527.3053
+Donor3,4,Lower Ext ,1434.4443
+Donor1,5,Cranium ,458.6601
+Donor1,5,Cranium ,453.4467
+Donor1,5,Cranium ,413.9404
+Donor1,5,Torso Right ,6086.8462
+Donor1 ,5,Torso Right ,6437.0996
+Donor1,5,Torso Right ,6649.9297
+Donor1 ,5,Torso Left ,617.1138
+Donor1,5,Torso Left ,547.7316
+Donor1,5,Torso Left ,550.4088
+Donor1,5,Lower Ext,997.2803
+Donor1,5,Lower Ext ,935.8058
+Donor1,5,Lower Ext ,1005.3646
+Donor2,5,Cranium ,698.3754
+Donor2,5,Cranium ,798.3726
+Donor2,5,Cranium ,779.9804
+Donor2,5,Torso Right ,2353.6287
+Donor2,5,Torso Right ,2201.1301
+Donor2,5,Torso Right ,2413.3879
+Donor2,5,Torso Left ,844.6129
+Donor2,5,Torso Left ,831.439
+Donor2,5,Torso Left ,911.4407
+Donor2,5,Lower Ext,868.4454
+Donor2,5,Lower Ext ,862.8733
+Donor2,5,Lower Ext ,927.6322
+Donor3,5,Cranium ,648.8481
+Donor3,5,Cranium ,721.7219
+Donor3,5,Cranium ,616.3854
+Donor3,5,Torso Right ,1193.8353
+Donor3,5,Torso Right ,1322.0433
+Donor3,5,Torso Right ,1291.2108
+Donor3,5,Torso Left ,967.3995
+Donor3,5,Torso Left ,909.5128
+Donor3,5,Torso Left ,895.1238
+Donor3,5,Lower Ext ,1846.184
+Donor3,5,Lower Ext ,1865.3191
+Donor1,6,Cranium ,345.8182
+Donor1,6,Cranium ,335.9291
+Donor1,6,Cranium ,298.6497
+Donor1,6,Torso Right ,363.3307
+Donor1 ,6,Torso Right ,413.8974
+Donor1,6,Torso Right ,461.0088
+Donor1 ,6,Torso Left ,6569.4956
+Donor1,6,Torso Left ,6463.9829
+Donor1,6,Torso Left ,6221.0547
+Donor1,6,Lower Ext,10303.176
+Donor1,6,Lower Ext ,9575.1553
+Donor1,6,Lower Ext ,10272.934
+Donor2,6,Cranium ,4122.1777
+Donor2,6,Cranium ,4627.8262
+Donor2,6,Cranium ,4770.1104
+Donor2,6,Torso Right ,4677.3374
+Donor2,6,Torso Right ,4474.5601
+Donor2,6,Torso Right ,4201.9351
+Donor2,6,Torso Left ,4742.6733
+Donor2,6,Torso Left ,4793.4072
+Donor2,6,Torso Left ,4675.9053
+Donor2,6,Lower Ext,4294.7593
+Donor2,6,Lower Ext ,4633.6187
+Donor2,6,Lower Ext ,4745.251
+Donor3,6,Cranium ,4614.8252
+Donor3,6,Cranium ,4460.7983
+Donor3,6,Cranium ,4520.4229
+Donor3,6,Torso Right ,4635.2856
+Donor3,6,Torso Right ,4606.5464
+Donor3,6,Torso Right ,4729.6025
+Donor3,6,Torso Left ,5286.627
+Donor3,6,Torso Left ,4996.499
+Donor3,6,Torso Left ,5106.0508
+Donor3,6,Lower Ext,873.7587
+Donor3,6,Lower Ext ,867.2604
+Donor3,6,Lower Ext ,817.1616
+Donor1,7,Cranium ,505.4816
+Donor1,7,Cranium ,431.4222
+Donor1,7,Cranium ,386.3203
+Donor1,7,Torso Right ,669.2054
+Donor1 ,7,Torso Right ,575.7037
+Donor1,7,Torso Right ,512.7922
+Donor1 ,7,Torso Left ,713.1899
+Donor1,7,Torso Left ,803.0552
+Donor1,7,Torso Left ,809.3051
+Donor1,7,Lower Ext,666.2736
+Donor1,7,Lower Ext ,616.9056
+Donor1,7,Lower Ext ,795.5782
+Donor2,7,Cranium ,844.988
+Donor2,7,Cranium ,974.1996
+Donor2,7,Cranium ,1067.3641
+Donor2,7,Torso Right ,1137.2747
+Donor2,7,Torso Right ,1436.455
+Donor2,7,Torso Right ,1028.8379
+Donor2,7,Torso Left ,1169.7723
+Donor2,7,Torso Left ,1093.4709
+Donor2,7,Torso Left ,1326.4364
+Donor2,7,Lower Ext,1021.0604
+Donor2,7,Lower Ext ,1334.7734
+Donor2,7,Lower Ext ,1333.1011
+Donor3,7,Cranium ,1308.5427
+Donor3,7,Cranium ,1280.589
+Donor3,7,Cranium ,1286.3341
+Donor3,7,Torso Right ,1147.8583
+Donor3,7,Torso Right ,1219.6937
+Donor3,7,Torso Right ,1203.8333
+Donor3,7,Torso Left ,2055.1006
+Donor3,7,Torso Left ,2277.5
+Donor3,7,Lower Ext,1642.616
+Donor3,7,Lower Ext ,1618.2972
+Donor3,7,Lower Ext ,1742.0006
+Donor1,8,Cranium ,494.1893
+Donor1,8,Cranium ,472.6725
+Donor1,8,Cranium ,510.5263
+Donor1,8,Torso Right ,57.0714
+Donor1 ,8,Torso Right ,46.1621
+Donor1,8,Torso Right ,55.9747
+Donor1 ,8,Torso Left ,72.4776
+Donor1,8,Torso Left ,53.0923
+Donor1,8,Torso Left ,69.1649
+Donor1,8,Lower Ext,64.0645
+Donor1,8,Lower Ext ,52.0731
+Donor1,8,Lower Ext ,55.8195
+Donor2,8,Cranium ,162.0153
+Donor2,8,Cranium ,158.9196
+Donor2,8,Cranium ,200.8403
+Donor2,8,Torso Right ,125.498
+Donor2,8,Torso Right ,116.5544
+Donor2,8,Torso Left ,88.3313
+Donor2,8,Torso Left ,83.2959
+Donor2,8,Torso Left ,88.2933
+Donor2,8,Lower Ext,162.1798
+Donor2,8,Lower Ext ,150.7809
+Donor3,8,Cranium ,118.212
+Donor3,8,Cranium ,95.9142
+Donor3,8,Torso Right ,296.9711
+Donor3,8,Torso Right ,244.0414
+Donor3,8,Torso Right ,257.1052
+Donor3,8,Torso Left ,3487.7258
+Donor3,8,Torso Left ,3144.5315
+Donor3,8,Lower Ext,307.8701
+Donor3,8,Lower Ext ,303.7396
+Donor3,8,Lower Ext ,320.7124
+Donor1,9,Cranium ,285.71
+Donor1,9,Cranium ,304.4399
+Donor1,9,Cranium ,239.2675
+Donor1,9,Torso Right ,422.1744
+Donor1 ,9,Torso Right ,341.2655
+Donor1,9,Torso Right ,334.6737
+Donor1 ,9,Torso Left ,344.5269
+Donor1,9,Torso Left ,399.3485
+Donor1,9,Torso Left ,327.327
+Donor1,9,Lower Ext,281.0098
+Donor1,9,Lower Ext ,234.8987
+Donor1,9,Lower Ext ,318.2001
+Donor2,9,Cranium ,439.9055
+Donor2,9,Cranium ,498.3181
+Donor2,9,Cranium ,513.5715
+Donor2,9,Torso Right ,732.3124
+Donor2,9,Torso Right ,658.9201
+Donor2,9,Torso Right ,698.3895
+Donor2,9,Torso Left ,1036.4517
+Donor2,9,Torso Left ,959.8119
+Donor2,9,Torso Left ,1112.9689
+Donor2,9,Lower Ext ,981.8136
+Donor2,9,Lower Ext ,1084.6583
+Donor3,9,Cranium ,2368.5574
+Donor3,9,Cranium ,2425.3867
+Donor3,9,Cranium ,2251.8843
+Donor3,9,Torso Right ,1830.467
+Donor3,9,Torso Right ,1778.7538
+Donor3,9,Torso Right ,1847.2628
+Donor3,9,Torso Left ,1619.8019
+Donor3,9,Torso Left ,1455.4041
+Donor3,9,Lower Ext,136.3885
+Donor3,9,Lower Ext ,147.0588
+Donor1,10,Cranium ,214.9579
+Donor1,10,Cranium ,210.384
+Donor1,10,Cranium ,188.9396
+Donor1,10,Torso Right ,287.8319
+Donor1 ,10,Torso Right ,323.0636
+Donor1,10,Torso Right ,286.3147
+Donor1,10,Torso Left ,205.9305
+Donor1,10,Torso Left ,246.2745
+Donor1,10,Lower Ext,141.9198
+Donor1,10,Lower Ext ,172.8915
+Donor2,10,Cranium ,1625.5092
+Donor2,10,Cranium ,1539.91
+Donor2,10,Cranium ,1675.964
+Donor2,10,Torso Right ,1427.228
+Donor2,10,Torso Right ,1351.7415
+Donor2,10,Torso Right ,1353.5138
+Donor2,10,Torso Left ,705.8491
+Donor2,10,Torso Left ,764.5347
+Donor2,10,Torso Left ,837.4384
+Donor2,10,Lower Ext,3862.8552
+Donor2,10,Lower Ext ,4074.3555
+Donor2,10,Lower Ext ,4208.8032
+Donor3,10,Cranium ,3004.4272
+Donor3,10,Cranium ,3400.4272
+Donor3,10,Cranium ,3379.3354
+Donor3,10,Torso Right ,1102.7173
+Donor3,10,Torso Right ,1099.6869
+Donor3,10,Torso Right ,1125.39
+Donor3,10,Torso Left ,817.2266
+Donor3,10,Torso Left ,641.0933
+Donor3,10,Torso Left ,730.6378
+Donor3,10,Lower Ext,332.9375
+Donor3,10,Lower Ext ,358.5086
+Donor3,10,Lower Ext ,309.8258
+Donor1 ,11,Torso Left ,218.0912
+Donor1,11,Torso Left ,251.5337
+Donor2,11,Torso Left ,1568.1362
+Donor2,11,Torso Left ,1337.4117
+Donor2,11,Torso Left ,1464.0135
+Donor3,11,Cranium ,2329.2332
+Donor3,11,Cranium ,1773.6941
+Donor3,11,Cranium ,1846.8787
