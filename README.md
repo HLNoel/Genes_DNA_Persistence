@@ -5,5 +5,4 @@ All DNA was extracted from soil and quantified via quantitative PCR. Weekly aver
 ## DNA and Environmental Factors Influencing Persistence
 Environmental data was collected during the 11-week decomposition period. This includes weekly total rainfall, weekly average humidity, weekly average temperature, weekly body moisture content, and Total Body Score. These data were analyzed using a PCA, then the dimensions of this PCA were compared to DNA quantity using an ANOVA to look for statistically significant relationships. These statistically significant relationships were visualized with linear regressions. Code and data pertaining to these visualizations can be found in the files nuDNA_Environment and mtDNA_Environment. mtDNA_PCA also includes Friedman's and pairwise Wilcoxon tests to show statisticially significant differences between total body score (TBS) between donors. 
 ## How to Cite this Material 
-Version 1: Noel, H. (2024). Genes_DNA_Persistence [Data set]. Zenodo. https://doi.org/10.5281/zenodo.11193252
-Version 2: Noel, H. (2024). Genes_DNA_Persistence [Data set]. Zenodo. https://doi.org/10.5281/zenodo.11397713
+Version one was originally published on Zenodo on May 14th, 2024. The most current version (Version 3) can be found at: Noel, H. (2024). Genes_DNA_Persistence [Data set]. Zenodo. https://doi.org/10.5281/zenodo.11412581
