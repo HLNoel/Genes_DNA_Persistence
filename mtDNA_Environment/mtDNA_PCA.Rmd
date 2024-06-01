@@ -1,0 +1,120 @@
+---
+title: "mitoDNA_Environment"
+author: "Hannah Noel"
+date: "2024-05-14"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(kableExtra)
+library(ggplot2)
+library(dplyr)
+library(FactoMineR)
+library(factoextra)
+library(stats)
+
+options(knitr.kable.NA = "")
+```
+
+```{r mtDNAdata, include=FALSE}
+
+dfA <- read.csv('mitoDNA_environmental.csv')
+dfA$donor_id <- factor(dfA$donor_id)
+
+```
+
+```{r mtPrin, include=TRUE}
+
+#performing PCA of environmental factors 
+mt.Prin <- PCA(
+  dfA[,2:7], 
+  scale.unit = TRUE, 
+  quali.sup = c(1), 
+  graph = FALSE
+  )
+
+#table of Eigen values and percentage variance 
+kbl(mt.Prin$eig, 
+    digits = 3) |>
+  kable_classic(full = FALSE)
+
+#table of correlation coefficients 
+kbl(mt.Prin$var$cor, 
+    digits = 3) |>
+  kable_classic(full = FALSE)
+
+#visulatzation of PCA 
+mito1 <- fviz_pca_biplot(mt.Prin,
+                axes = c(1,2),
+                geom.ind = "point", 
+                col.ind = dfA$donor_id, 
+                palette = c("blue","black","orange"),
+                legend.title = "Donor",
+                label = 'var', 
+                repel = TRUE) +
+  theme_minimal(base_size = 10) +
+  labs (x="Dimension 1 (40.334%)", y="Dimension 2 (31.232%)") 
+
+mito1 
+
+```
+```{r screePlot, include = TRUE}
+eigenvalues <- mt.Prin$eig
+head(eigenvalues[, 1:2])
+
+barplot(eigenvalues[, 2], names.arg=1:nrow(eigenvalues), 
+       main = "Variances",
+       xlab = "Principal Components",
+       ylab = "Percentage of variances",
+       col ="steelblue")
+# Add connected line segments to the plot
+lines(x = 1:nrow(eigenvalues), eigenvalues[, 2], 
+      type="b", pch=19, col = "red")
+
+```
+
+```{r mtRegression, include=TRUE}
+
+#combining dimensions of PCA to the dataset 
+dfB <- cbind(dfA, mt.Prin$ind$coord)
+
+#looking for statistically significant relationships between dimensions and quantity of mtDNA in soil
+dim1MT <- lm(quantity_mtdna ~ Dim.1, dfB)
+
+anova(dim1MT)
+
+dim2MT <- lm(quantity_mtdna ~ Dim.2, dfB)
+
+anova(dim2MT)
+
+dim3MT <- lm(quantity_mtdna ~ Dim.3, dfB) 
+
+anova(dim3MT)
+
+scientific_10 <- function(x) {
+  parse(text=gsub("e", " %*% 10^", scales::scientific_format()(x)))}
+#visualization of dimension 1 and quantity of mtDNA 
+ggplot(dfB, aes(x=Dim.1, y=quantity_mtdna)) +
+  geom_point(aes(shape=donor_id, color=week)) + #to show which data points fall outside the interval
+  scale_y_log10(label=scientific_10) + 
+  geom_smooth(method="lm") +
+  labs (x="Dimension 1", y="Quantity of mtDNA (copy number/ul)") 
+
+```
+
+```{r tbsSig, include=TRUE}
+#using nonparametric Freidman's test and pairwise Wilcoxon test to see if there is any significant differences in TBS between donors 
+friedman.test(y = dfA$tbs, groups = dfA$donor_id, blocks = dfA$week)
+pairwise.wilcox.test(dfA$tbs, dfA$donor_id, exact=F, p.adjust.method = "none")
+
+
+```
+
+
+
+```
+
+
+
